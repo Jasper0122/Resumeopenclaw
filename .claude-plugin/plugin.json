@@ -1,0 +1,9 @@
+{
+  "name": "resumeopenclaw",
+  "version": "1.0.0",
+  "description": "ResumeOpenClaw — AI-powered resume tailoring pipeline: job URL + resume JSONL → customized LaTeX PDF via Claude",
+  "author": {
+    "name": "Zongrong (Jasper) Li"
+  },
+  "keywords": ["resume", "latex", "job", "tailoring", "claude", "pdf"]
+}
