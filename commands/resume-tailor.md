@@ -129,6 +129,17 @@ Using the tailored content from Step 3, write a complete LaTeX file based on Jak
 
 Use **Write** to save it as `tailored_[company]_[title].tex` in the output directory.
 
+**Page length rules (strictly enforce):**
+- Target **1 page** for most roles; use **2 pages** only if the candidate has 5+ years of experience or the role explicitly values depth (e.g., research/senior positions).
+- If content fits comfortably on 1 page, use 1 page. Never leave a second page with less than ~40% content.
+- To control length, use these levers in order:
+  1. Reduce bullets per experience to 2 (drop the weakest bullet before trimming words)
+  2. Shorten bullet text — aim for 1 line per bullet, 2 lines max
+  3. Reduce `\textheight` margin slightly (e.g., `\addtolength{\textheight}{1.2in}` instead of `1.0in`)
+  4. Reduce font size to `10pt` if still overflowing
+- Never add `\vspace`, `\bigskip`, or blank lines to pad whitespace. If a section is short, let it sit tight.
+
+
 The LaTeX file must follow this exact structure:
 
 ```latex
